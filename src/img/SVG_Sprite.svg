@@ -3,7 +3,7 @@
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path d="M19.52 4.64h.96v3.6h-1.2c-.48 0-.96 0-1.2.24s-.24.48-.24 1.04v1.28h2.64v3.04h-2.64v13.2h-4.08V13.76H11.6v-3.04h2.16V9.68c0-1.76.24-3.04.72-3.6.72-1.04 2.16-1.52 4.32-1.52.24.08.48.08.72.08z"/></symbol>
 
-<symbol id="icon-stroke" viewBox="0 0 20480 32">
+<symbol id="icon" viewBox="0 0 20480 32">
 <path stroke-width="16" d="M0 16h20480"/>
 
 <symbol id="icon-instagram" viewBox="0 0 32 32">
@@ -13,12 +13,12 @@
 <path d="M24.24 6c-1.36-.08-4.16-.16-8.4-.16h-.56c-4.08 0-6.8.08-8.16.24-1.84.16-3.12.64-3.84 1.28-.64.56-1.12 1.6-1.28 2.96-.08.88-.16 2.72-.16 5.52v.4c0 2.64.08 4.48.24 5.36.24 1.28.64 2.24 1.44 2.8.8.64 2.16 1.04 4.08 1.2 1.36.08 4.16.16 8.4.16h.56c4.08 0 6.8-.08 8.16-.24 1.84-.16 3.12-.64 3.84-1.28.64-.56 1.12-1.6 1.28-2.96.08-.88.16-2.72.16-5.52v-.4c0-2.64-.08-4.48-.24-5.36-.24-1.28-.64-2.24-1.44-2.8-.8-.64-2.16-1.04-4.08-1.2zm-3.12 9.84-8.8 5.28V10.56l8.8 5.28z"/></symbol>
 
 <symbol id="icon-dot" viewBox="0 0 36 32">
-<path d="M34 16c0 8.837-7.163 16-16 16S2 24.837 2 16 9.163 0 18 0s16 7.163 16 16z" style="fill:var(--color1, #3350e9)"/></symbol>
+<path d="M34 16c0 8.837-7.163 16-16 16S2 24.837 2 16 9.163 0 18 0s16 7.163 16 16z"/></symbol>
 
 <symbol id="icon-burger" viewBox="0 0 32 32">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M4 11.333h24M4 20.667h24"/></symbol>
 
 <symbol id="icon-close" viewBox="0 0 32 32">
-<path fill="none" stroke="#fbfbfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16" style="stroke:var(--color2, #fbfbfb)"/></symbol>
+<path fill="none" stroke="#fbfbfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16"/></symbol>
 
 </defs></svg>
