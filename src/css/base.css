@@ -1,9 +1,6 @@
 :root {
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: "Gilroy", sans-serif;
-
-  color: #0C0C0C;
-  background-color: #fbfbfb;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,4 +15,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+
+  font-family: "Gilroy", sans-serif;
+  color: #0C0C0C;
+  background-color: #fbfbfb;
 }
