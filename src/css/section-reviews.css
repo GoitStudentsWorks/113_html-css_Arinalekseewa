@@ -14,6 +14,11 @@
     width: 335px;
     height: 262px;
     background: #f3f3f3;
+    max-width: 335px;
+}
+.reviews-section-text {
+    width: 263px;
+    height: 198px;
 }
 
 .reviews-text-header {
