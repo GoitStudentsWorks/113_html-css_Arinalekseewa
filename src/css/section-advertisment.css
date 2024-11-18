@@ -1,0 +1,114 @@
+.advertisement_content {
+    padding: 60px 0;
+}
+.advertisement_card {
+    border-radius: 30px;
+    height: 363px;
+    width: 335px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 28px ;
+}
+
+@media (min-resolution:192dpi) {
+    .advertisement_card {
+        background-image: 
+           linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob@2x.webp');
+    }
+}
+
+@media (min-resolution:288dpi) {
+    .advertisement_card {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob@3x.webp');
+    }
+}
+
+.advertisement_text {
+    font-family: "Gilroy", sans-serif; 
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+}
+.advertisement_text-grey {
+    color: rgba(251, 251, 251, 0.5);
+}
+.advertisement_button {
+    width: 160px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    font-family: "Gilroy",sans-serif;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+.advertisement_button:hover {
+    background: #fbfbfb;
+    color: #0c0c0c;
+}
+@media screen and (min-width: 768px) {
+    .advertisement_card {
+        width: 704px;
+        height: 425px;
+        padding: 80px 64px;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab.webp');
+    }
+        @media (min-resolution:192dpi) {
+            .advertisement_card {
+                background-image:
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab@2x.webp');
+            }
+        }
+    
+        @media (min-resolution:288dpi) {
+            .advertisement_card {
+                background-image:
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab@3x.webp');
+            }
+        }
+    .advertisement_text {
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 32px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .advertisement_card {
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 298px;
+        padding: 83px 80px;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc.webp');
+    }
+        @media (min-resolution:192dpi) {
+            .advertisement_card {
+                background-image:
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc@2x.webp');
+            }
+        }
+    
+        @media (min-resolution:288dpi) {
+            .advertisement_card {
+                background-image:
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc@3x.webp');
+            }
+            
+        }
+        .advertisement_text {
+            font-weight: 600;
+            width: 690px;
+            margin-bottom: 0;
+        }
+        
+
+}
