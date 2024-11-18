@@ -1,16 +1,11 @@
 .sale-section {
-  background-color: #fff;
-  padding: 0 20px;
   margin-bottom: 60px;
 }
 
 .sale-title {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   text-transform: capitalize;
   margin-bottom: 24px;
 }
@@ -32,39 +27,36 @@
 .sale-item {
   width: 80px;
   height: 80px;
-  padding: 13px 14px;
+  padding: 12px 13px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
   background-color: #f3f3f3;
 }
 
-.main-watch {
-  padding: 50px;
-  width: 335px;
+.sale-main-watch {
+  padding: 49px;
+  min-width: 335px;
   height: 385px;
   background-color: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
 }
 
-.watch-details {
+.sale-watch-details {
   width: 335px;
   height: 561px;
   padding: 48px 28px;
   border-radius: 30px;
   background-color: #3350e9;
 }
-.watch-name {
-  font-weight: 600;
+.sale-watch-name {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 10px;
 }
-.watch-tag {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 400;
+.sale-watch-tag {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -72,15 +64,14 @@
   margin-bottom: 20px;
 }
 
-.price {
+.sale-price {
   display: flex;
   margin-bottom: 28px;
 }
-.watch-price {
+.sale-watch-price {
   display: flex;
   width: 68px;
   height: 32px;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -92,10 +83,8 @@
   align-items: center;
   margin-right: 9px;
 }
-.watch-old-price {
+.sale-watch-old-price {
   display: flex;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
@@ -104,8 +93,7 @@
   justify-content: center;
   align-items: center;
 }
-.watch-description {
-  font-family: 'Gilroy', sans-serif;
+.sale-watch-description {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -113,15 +101,15 @@
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 28px;
 }
-.tags {
+.sale-tags {
   display: flex;
   width: 279px;
+  height: 112px;
   flex-wrap: wrap;
   gap: 8px;
 }
-.tag {
-  padding: 8px 12px;
-  font-family: 'Gilroy', sans-serif;
+.sale-tag {
+  padding: 7px 11px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
@@ -131,8 +119,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sale-section {
+  .container {
     padding: 0 32px;
+  }
+
+  .sale-section {
     margin-bottom: 80px;
   }
 
@@ -154,56 +145,60 @@
   .sale-item {
     width: 132px;
     height: 132px;
-    padding: 16px 18px;
+    padding: 15px 17px;
     border-radius: 20px;
   }
 
-  .main-watch {
-    padding: 80px 112px;
+  .sale-main-watch {
+    padding: 79px 111px;
     width: 552px;
     height: 558px;
     border-radius: 50px;
   }
 
-  .watch-details {
+  .sale-watch-details {
     width: 704px;
     height: 518px;
     padding: 60px;
     border-radius: 50px;
   }
 
-  .watch-name {
+  .sale-watch-name {
     width: 436px;
     font-size: 32px;
     line-height: 1.12;
   }
 
-  .price {
+  .sale-price {
     margin-bottom: 30px;
   }
-  .watch-price {
+  .sale-watch-price {
     width: 78px;
     font-size: 20px;
     line-height: 1;
   }
 
-  .watch-description {
+  .sale-watch-description {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 40px;
   }
-  .tags {
+  .sale-tags {
     width: 398px;
+    height: 76px;
   }
-  .tag {
+  .sale-tag {
     font-size: 14px;
     line-height: 1.29;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .sale-section {
+  .container {
     padding: 0 65px;
+  }
+
+  .sale-section {
     margin-bottom: 100px;
   }
 
@@ -211,18 +206,18 @@
     gap: 20px;
   }
 
-  .main-watch {
-    padding: 80px 50px;
+  .sale-main-watch {
+    padding: 79px 49px;
     width: 428px;
     margin-right: 20px;
   }
 
-  .watch-details {
+  .sale-watch-details {
     width: 530px;
     height: 558px;
   }
 
-  .watch-name {
+  .sale-watch-name {
     width: 389px;
   }
 }
