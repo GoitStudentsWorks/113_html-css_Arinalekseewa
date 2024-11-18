@@ -4,23 +4,15 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-top: 60px;
     margin-bottom: 24px;
 }
-
 .reviews-section-images {
     border-radius: 30px;
     padding: 32px 36px;
     width: 335px;
     height: 262px;
     background: #f3f3f3;
-    max-width: 335px;
 }
-.reviews-section-text {
-    width: 263px;
-    height: 198px;
-}
-
 .reviews-text-header {
     font-weight: 500;
     font-size: 16px;
@@ -30,12 +22,81 @@
     color: #0c0c0c;
     margin-bottom: 8px;
 }
-
 .revies-text-paragraph {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
+}
+.reviews-section-thumb {
+    display: flex;
+    justify-content: center;
+}
+.img-reviews-section {
+    margin-bottom: 24px;
+}
+
+.reviews-section-images {
+    display: block;
+}
+@media (max-width: 767px) {
+    .reviews-section-images {
+        display: none;
+    }
+    .reviews-sec-one {
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+    .reviews-section-images {
+        display: none;
+    }
+        .reviews-sec-one,
+        .reviews-sec-two {
+        display: block;
+    }
+}
+@media (min-width: 1280px) {
+    .reviews-section-images {
+        display: block;
+    }
+}
+
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+.reviews-section-header {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+}
+.reviews-section-images {
+    width: 344px;
+    height: 272px;
+}
+ .reviews-text-header {
+     font-size: 18px;
+     line-height: 1.1;
+     letter-spacing: -0.02em;
+ }
+ .revies-text-paragraph {
+     font-size: 16px;
+     line-height: 1.25;
+ }
+ .reviews-section-group {
+     display: flex;
+     gap: 16px;
+ }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .reviews-section-images {
+        width: 370px;
+    }
+        .reviews-section-group {
+            gap: 20px;
+        }
 }
