@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    .advertisement_content {
+        padding: 80px 0;
+    }
+
+    .advertisement_card {
+        min-height: 425px;
+        max-width: 704px;
+        padding: 80px 64px;
+    }
+
+    .advertisement_text {
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 32px;
+    }
+
+
+    @media (min-resolution: 192dpi) {
+        .advertisement_card {
+            background-image: linear-gradient(rgba (0, 0, 0, 0.6)),
+            rgba((0, 0, 0, 0.6)), url(/img/advertisment_tablet@2x.png);
+        }
+    }
+
+    @media (min-resolution: 288dpi) {
+        .advertisement_card {
+            background-image: linear-gradient(rgba (0, 0, 0, 0.6)),
+        rgba((0, 0, 0, 0.6)),
+        url(/img/advertisment_tablet@3x.png);
+        }
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .advertisement_content {
+        padding: 100px 0;
+    }
+
+    .advertisement_card {
+        display: flex;
+        flex-direction: row;
+        min-height: 298px;
+        max-width: 1150px;
+        padding: 84px 80px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .advertisement_card {
+            background-image: linear-gradient(rgba (0, 0, 0, 0.6)),
+                rgba((0, 0, 0, 0.6)), url(/img/advertisment_desktop@2x.png);
+        }
+    }
+    
+    @media (min-resolution: 288dpi) {
+        .advertisement_card {
+            background-image: linear-gradient(rgba (0, 0, 0, 0.6)),
+                rgba((0, 0, 0, 0.6)),
+                url(/img/advertisment_desctop@3x.png);
+        }
+    }
+}

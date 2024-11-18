@@ -5,6 +5,7 @@
   |============================
 */
 /* Common styles */
+@import url('../Fonts/fonts.css');
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
@@ -20,3 +21,4 @@
 @import url('./section-reviews.css');
 @import url('./section-contact-us.css');
 @import url('./footer.css');
+@import url('./adaptive-design.css');

@@ -1,0 +1,117 @@
+.about-us {
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .about-us {
+    margin-bottom: 80px;
+  }
+}
+
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-wrapper {
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-wrapper {
+    flex-direction: row;
+  }
+}
+.about-us-content {
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    padding: 80px 60px;
+  }
+}
+
+.about-us-second-heading {
+  margin-bottom: 28px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-second-heading {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 92%;
+  }
+}
+
+.paragraph-about-us {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph-about-us {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+.paragraph-about-us:last-of-type {
+  margin: 20px 0 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph-about-us:last-of-type {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .paragraph-about-us:last-of-type {
+    margin-bottom: 40px;
+  }
+}
+
+.view-catalog-button {
+  border: none;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+  transition: background 0.3s ease;
+}
+
+.view-catalog-button:hover,
+.view-catalog-button:focus {
+  background: #1f3cd4;
+}
+
+.about-us-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-elem {
+    width: calc((100% - 40px) / 2);
+  }
+}
