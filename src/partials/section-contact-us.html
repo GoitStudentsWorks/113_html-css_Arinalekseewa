@@ -1,5 +1,6 @@
 <section class="container contact-us-container">
     <h2 class="contact-us-header">Contact Us</h2>
+    <div class="contact-info-img">
     <div class="contact-us-form-container">
         <p class="contact-us-text">Please use the form below to contact us. Enter your name, email, phone, and
             message
@@ -13,8 +14,13 @@
                 required></textarea>
             <button class="contact-us-button" type="submit">Send</button>
         </form>
-        <div class="contact-us-img">
-            <img src="" alt="Black Watch Image">
-        </div>
     </div>
+        <div class="contact-us-img">
+            <source srcset="/img/contact_us_desktop.webp 1x, /img/contact_us_desktop@2x.webp 2x" media="(min-width: 1280px)" />
+            <source srcset="/img/contact-us_tablet.webp 1x, /img/contact-us_tablet@2x.webp 2x" media="(min-width: 768px)" />
+            <source srcset="/img/contact-us.webp 1x, /img/contact-us@2x.webp 2x" media="(max-width: 767px)" />
+            <img src="/img/contact-us.webp" alt="black-watch" />
+        </div>
+        </div>
+
 </section>
