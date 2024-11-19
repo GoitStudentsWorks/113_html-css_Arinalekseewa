@@ -24,6 +24,4 @@ dist-ssr
 *.sw?
 
 pull-request.txt
-header.html
-header.css
 
