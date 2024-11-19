@@ -2,6 +2,7 @@
 .hero {
     padding-top: 60px;
     padding-bottom: 0;
+    margin-bottom: 60px;
 }
 
 .hero-container {
@@ -14,6 +15,7 @@
 .hero-main {
     display: flex;
     flex-direction: column;
+    margin-bottom: 28px;
 }
 
 .hero-block {
@@ -22,6 +24,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: normal;
+    margin-bottom: 28px;
+    
 }
 
 .hero-title {
@@ -44,38 +48,48 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
+    
 }
 
 .hero-list-block {
     display: flex;
     width: 335px;
-    margin-bottom: 28px;
+    height: 44px;
 }
 
 .hero-list {
     display: flex;
     margin-right: 105px;
     width: 155px;
+    position: relative;
+}
+
+.hero-list-item {
+     position: absolute;
 }
 
 .hero-item-images {
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
+    width: 44px;
+    height: 44px;
 }
 
-#foto1,#foto2,#foto3 {
-    position: relative; 
-}
-
-#foto2 {
-    left: -10px;
-}
-
-#foto3 {
-    left: -20px;
-}
+.hero-list-item:nth-child(1) {
+    z-index: 1;
+  }
+  
+  .hero-list-item:nth-child(2) {
+    left: 35px;
+    z-index: 2;
+  }
+  
+  .hero-list-item:nth-child(3) {
+    left: 70px;
+    z-index: 3;
+  }
+  
 
 .hero-scroll {
     align-content: flex-end;
@@ -112,6 +126,7 @@
     .hero-block {
         width: 557px;
         margin-right: 11px;
+        margin-bottom: 0;
     }
 
     .hero-title {
@@ -127,6 +142,7 @@
     .hero-list-block {
         flex-direction: column;
         width: 136px;
+        height: 0%;
     }
 
     .hero-list {
@@ -141,11 +157,25 @@
         height: 56px;
     }
 
+    .hero-list-item:nth-child(2) {
+        left: 40px;
+        z-index: 2;
+      }
+      
+      .hero-list-item:nth-child(3) {
+        left: 80px;
+        z-index: 3;
+      }
+
     .hero-scroll {
         font-size: 20px;
         line-height: 100%;
+        text-align: right;
     } 
 
+    .hero-rectangle {
+        width: 704px;
+    }
     
 }
 
@@ -171,6 +201,20 @@
     .hero-item-images {
         width: 60px;
         height: 60px;
+    }
+
+    .hero-list-item:nth-child(2) {
+        left: 45px;
+        z-index: 2;
+      }
+      
+      .hero-list-item:nth-child(3) {
+        left: 90px;
+        z-index: 3;
+      }
+
+    .hero-rectangle {
+        width: 1150px;
     }
 
 }
