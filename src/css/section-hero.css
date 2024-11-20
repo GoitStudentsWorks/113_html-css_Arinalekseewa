@@ -1,4 +1,10 @@
 /* ------hero------ */
+.hero {
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+}
+
 
 .hero .container {
     padding-bottom: 60px;
@@ -9,6 +15,7 @@
     flex-direction: column;
     padding-top: 60px;
     gap: 28px;
+    margin-bottom: 28px;
 }
 
 .hero-block {
@@ -17,6 +24,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: normal;
+    margin-bottom: 28px;
+    
 }
 
 .hero-title {
@@ -39,38 +48,49 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
+    
 }
 
 .hero-list-block {
     display: flex;
     width: 335px;
-    margin-bottom: 28px;
+    height: 44px;
 }
 
 .hero-list {
     display: flex;
     margin-right: 105px;
     width: 155px;
+    position: relative;
+}
+
+.hero-list-item {
+     position: absolute;
 }
 
 .hero-item-images {
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
+    width: 44px;
+    height: 44px;
+    padding-top: 0;
 }
 
-#foto1,#foto2,#foto3 {
-    position: relative; 
-}
-
-#foto2 {
-    left: -10px;
-}
-
-#foto3 {
-    left: -20px;
-}
+.hero-list-item:nth-child(1) {
+    z-index: 1;
+  }
+  
+  .hero-list-item:nth-child(2) {
+    left: 35px;
+    z-index: 2;
+  }
+  
+  .hero-list-item:nth-child(3) {
+    left: 70px;
+    z-index: 3;
+  }
+  
 
 .hero-scroll {
     align-content: flex-end;
@@ -99,6 +119,10 @@
     margin-right: 0;
 }
 
+.hero-rectangle-images {
+    padding-top: 0;
+}
+
 @media screen and (min-width: 768px) {
 
     .hero .container {
@@ -114,6 +138,7 @@
     .hero-block {
         width: 557px;
         margin-right: 11px;
+        margin-bottom: 0;
     }
 
     .hero-title {
@@ -132,6 +157,7 @@
         width: 136px;
         justify-content: space-between;
         margin-bottom: 0;
+        height: 0%;
     }
 
     .hero-list {
@@ -140,11 +166,25 @@
         margin-right: 0;
     }
 
+    .hero-list-item:nth-child(2) {
+        left: 40px;
+        z-index: 2;
+      }
+      
+      .hero-list-item:nth-child(3) {
+        left: 80px;
+        z-index: 3;
+      }
+
     .hero-scroll {
         font-size: 20px;
         line-height: 100%;
-        text-align: end;
-    }  
+        text-align: right;
+    } 
+
+    .hero-rectangle {
+        width: 704px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -175,6 +215,25 @@
     .hero-item-images {
         width: 60px;
         height: 60px;
+    }
+
+    .hero-list-item:nth-child(1) {
+        left: 4px;
+        z-index: 1;
+      }
+
+    .hero-list-item:nth-child(2) {
+        left: 45px;
+        z-index: 2;
+      }
+      
+      .hero-list-item:nth-child(3) {
+        left: 86px;
+        z-index: 3;
+      }
+
+    .hero-rectangle {
+        width: 1150px;
     }
 
 }
