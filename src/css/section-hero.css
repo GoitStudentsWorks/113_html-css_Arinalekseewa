@@ -203,13 +203,18 @@
         height: 60px;
     }
 
+    .hero-list-item:nth-child(1) {
+        left: 4px;
+        z-index: 1;
+      }
+
     .hero-list-item:nth-child(2) {
         left: 45px;
         z-index: 2;
       }
       
       .hero-list-item:nth-child(3) {
-        left: 90px;
+        left: 86px;
         z-index: 3;
       }
 
