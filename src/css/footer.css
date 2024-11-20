@@ -20,7 +20,7 @@
         padding: 40px 40px 28px 40px;
     }
 }
-@media (min-width: 1158px) {
+@media (min-width: 1280px) {
     .footer-container {
         gap: 126px;
     }
@@ -77,9 +77,9 @@ fill: #fbfbfb;
 opacity: 0.8;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-    opacity: 1;
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon{
+    opacity: 1.0;
 }
 
 .footer-tel {
@@ -92,8 +92,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;    
 }    
 
 @media (min-width: 768px) {
@@ -140,7 +140,7 @@ gap: 49px;
         gap: 62px;
     }
 }
-@media (min-width: 1158px) {
+@media (min-width: 1280px) {
     .footer-nav-add-container {
         gap: 469px;
     }
@@ -160,7 +160,7 @@ gap: 49px;
     gap: 19px;
     }
 }
-@media (min-width: 1158px) {
+@media (min-width: 1280px) {
     .footer-nav-list {
     max-width: 505px;
     gap: 40px;
@@ -216,7 +216,7 @@ gap: 49px;
     gap: 159px;
 }
 }
-@media (min-width: 1158px) {
+@media (min-width: 1280px) {
     .footer-ground-container {
        gap: 671px;
     }
