@@ -129,8 +129,6 @@
     .hero-main {  
       flex-direction: row;
       justify-content: space-between;
-      margin-bottom: 40px;
-      gap: 11px;
     }
     
     .hero-block {
