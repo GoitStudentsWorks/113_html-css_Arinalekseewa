@@ -2,7 +2,6 @@
 .hero {
     padding-top: 60px;
     padding-bottom: 0;
-    margin-bottom: 60px;
 }
 
 
@@ -13,7 +12,6 @@
 .hero-main {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
     gap: 28px;
     margin-bottom: 28px;
 }
@@ -131,13 +129,12 @@
 
     .hero-main {  
       flex-direction: row;
-      gap: 11px;
+      justify-content: space-between;
       margin-bottom: 40px;
     }
     
     .hero-block {
-        width: 557px;
-        margin-right: 11px;
+        min-width: 557px;
         margin-bottom: 0;
     }
 
@@ -155,9 +152,8 @@
     .hero-list-block {
         flex-direction: column;
         width: 136px;
+        height: 260px;
         justify-content: space-between;
-        margin-bottom: 0;
-        height: 0%;
     }
 
     .hero-list {
@@ -196,7 +192,6 @@
 
     .hero-block {
         width: 597px;
-        margin-right: 407px;
     }
 
     .hero-title {
