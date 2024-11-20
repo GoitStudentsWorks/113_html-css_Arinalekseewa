@@ -17,7 +17,7 @@ margin-bottom: 24px;
 }
 .catalog-list{
 display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 20px;
@@ -27,27 +27,28 @@ min-width: 335px;
 display: flex;
 flex-direction: column;
 align-items: center;
+text-align: left;
 width: 335px;
-min-height: 316px;
+height: 316px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background: #f3f3f3;
+gap: 10px;
 }
-
 .catalog-imgs {
-  display: flex;
-  flex-direction: column;
-  padding: 24px 28px;
-  align-items: center;
-  gap: 10px;
+  margin-bottom: 16px;
 }
-
+.catalog-name
+{width: 100%;
+   margin-bottom: 24px;}
 .catalog-name-list{
 display: flex;
+text-align: left;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-gap: 8px;}
+gap: 8px;
+}
 .catalog-first-name{
 font-weight: 500;
 font-size: 16px;
@@ -64,6 +65,7 @@ color: rgba(12, 12, 12, 0.5);}
     display: none;
     visibility: hidden;
 }
+
  .button {
 display: block;
 border: none;
@@ -104,12 +106,28 @@ margin: 0 auto;
     visibility: visible;
 
 }
+.catalog-name{ 
+  width: 280px;
+  margin-bottom: 24px;}
+  .elipses{ display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;}
+    .catalog-name-list p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+  
    .catalog-items{
     width: calc((100% - 32px)/2);
     height: 414px;
     padding: 24px 32px;
     gap: 20px;
    }
+ 
    .button{ display: none;}
 }
  @media screen and (min-width: 1280px){
@@ -122,24 +140,14 @@ margin: 0 auto;
       width: 368px;
       gap:0;
     }
-    .catalog-first-name {
-         font-size: 20px;}
-    .catalog-name{
-        display: block;
-        width: 368px;} 
+    .catalog-name { width: 304px;}
     .catalog-first-name  {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
-
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-  max-width: 100%;
 } 
+
 
 .catalog-imgs {
   padding: 0;
