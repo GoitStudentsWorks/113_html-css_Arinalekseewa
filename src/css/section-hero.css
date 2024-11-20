@@ -2,19 +2,17 @@
 .hero {
     padding-top: 60px;
     padding-bottom: 0;
-    margin-bottom: 60px;
 }
 
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: normal;
+
+.hero .container {
+    padding-bottom: 60px;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
+    gap: 28px;
     margin-bottom: 28px;
 }
 
@@ -74,6 +72,7 @@
     stroke: #fbfbfb;
     width: 44px;
     height: 44px;
+    padding-top: 0;
 }
 
 .hero-list-item:nth-child(1) {
@@ -118,14 +117,24 @@
     margin-right: 0;
 }
 
+.hero-rectangle-images {
+    padding-top: 0;
+}
+
 @media screen and (min-width: 768px) {
+
+    .hero .container {
+        padding-bottom: 80px;
+    }
+
     .hero-main {  
       flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 40px;
     }
     
     .hero-block {
-        width: 557px;
-        margin-right: 11px;
+        min-width: 557px;
         margin-bottom: 0;
     }
 
@@ -137,24 +146,20 @@
     .hero-text {
         font-size: 16px;
         line-height: 125%;
+        width: 480px;
     }
 
     .hero-list-block {
         flex-direction: column;
         width: 136px;
-        height: 0%;
+        height: 260px;
+        justify-content: space-between;
     }
 
     .hero-list {
         width: 136px;
         height: 60px;
         margin-right: 0;
-        margin-bottom: 180px;
-    }
-
-    .hero-item-images {
-        width: 56px;
-        height: 56px;
     }
 
     .hero-list-item:nth-child(2) {
@@ -176,13 +181,17 @@
     .hero-rectangle {
         width: 704px;
     }
-    
 }
 
 @media screen and (min-width: 1280px) {
+
+    .hero .container {
+        padding-bottom: 100px;
+    }
+
+
     .hero-block {
         width: 597px;
-        margin-right: 407px;
     }
 
     .hero-title {
