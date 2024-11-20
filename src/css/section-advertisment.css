@@ -5,7 +5,7 @@
     border-radius: 30px;
     height: 363px;
     width: 335px;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob.webp'); 
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-mob.webp'); 
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 28px ;
@@ -14,14 +14,14 @@
 @media (min-resolution:192dpi) {
     .advertisement_card {
         background-image: 
-           linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob@2x.webp');
+           linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, .6)), url('/img/adv-bg-mob@2x.webp');
     }
 }
 
 @media (min-resolution:288dpi) {
     .advertisement_card {
         background-image:
-            linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-mob@3x.webp');
+            linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-mob@3x.webp');
     }
 }
 
@@ -60,19 +60,19 @@
         width: 704px;
         height: 425px;
         padding: 80px 64px;
-        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab.webp');
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-tab.webp');
     }
         @media (min-resolution:192dpi) {
             .advertisement_card {
                 background-image:
-                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab@2x.webp');
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-tab@2x.webp');
             }
         }
     
         @media (min-resolution:288dpi) {
             .advertisement_card {
                 background-image:
-                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-tab@3x.webp');
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-tab@3x.webp');
             }
         }
     .advertisement_text {
@@ -88,19 +88,19 @@
         width: 1150px;
         height: 298px;
         padding: 83px 80px;
-        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc.webp');
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-pc.webp');
     }
         @media (min-resolution:192dpi) {
             .advertisement_card {
                 background-image:
-                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc@2x.webp');
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-pc@2x.webp');
             }
         }
     
         @media (min-resolution:288dpi) {
             .advertisement_card {
                 background-image:
-                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/adv-bg-pc@3x.webp');
+                    linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/adv-bg-pc@3x.webp');
             }
             
         }
