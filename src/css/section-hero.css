@@ -144,7 +144,7 @@
     .hero-list-block {
         flex-direction: column;
         width: 136px;
-        height: 260px;
+        height: auto;
         justify-content: space-between;
     }
 
