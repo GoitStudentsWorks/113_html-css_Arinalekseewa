@@ -168,7 +168,7 @@
   }
 
   .catalog-items {
-    width: 368px;
+    min-width: 368px;
   }
 
     .catalog-items img {
