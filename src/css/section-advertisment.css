@@ -65,7 +65,7 @@
     height: 425px;
     padding: 80px 64px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url('/img/adv-bg-tab.webp');
+        url('/img/adv-bg-tab@2x.webp');
   }
   @media (min-resolution: 192dpi) {
     .advertisement_card {
