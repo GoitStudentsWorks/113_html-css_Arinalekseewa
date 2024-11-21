@@ -1,5 +1,9 @@
-<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="4" y="4" width="36" height="36" rx="18" fill="#3350E9"/>
-<rect x="2" y="2" width="40" height="40" rx="20" stroke="#3350E9" stroke-opacity="0.2" stroke-width="4"/>
-<path d="M24.74 24.16L26.44 18H29.18L26 28H23.54L21.7 21.94L19.86 28H17.4L14.22 18H16.96L18.66 24.14L20.48 18H22.92L24.74 24.16Z" fill="#FBFBFB"/>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-UserTesting" viewBox="0 0 32 32">
+<path fill="#3350e9" style="fill: var(--color1, #3350e9)" d="M16 2.909v0c7.2 0 13.091 5.891 13.091 13.091v0c0 7.2-5.891 13.091-13.091 13.091v0c-7.2 0-13.091-5.891-13.091-13.091v0c0-7.2 5.891-13.091 13.091-13.091z"></path>
+<path fill="#3350e9" style="fill: var(--color1, #3350e9)" opacity="0.2" d="M16 32c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM16 2.909c-7.2 0-13.091 5.891-13.091 13.091s5.891 13.091 13.091 13.091c7.2 0 13.091-5.891 13.091-13.091s-5.891-13.091-13.091-13.091z"></path>
+<path fill="#fbfbfb" style="fill: var(--color2, #fbfbfb)" d="M17.964 17.6l1.236-4.509h1.964l-2.255 7.273h-1.818l-1.309-4.436-1.309 4.436h-1.818l-2.327-7.273h2.036l1.236 4.436 1.309-4.436h1.745l1.309 4.509z"></path>
+</symbol>
+</defs>
 </svg>
