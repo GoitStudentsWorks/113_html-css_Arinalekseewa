@@ -9,20 +9,6 @@
 }
 
 
-.contact-us-img {
-    margin-bottom: 60px;
-}
-
-.contact-us-form-container {
-    padding-bottom: 20px;
-}
-
-
-
-.contact-info-img {
-    margin-bottom: 20px;
-}
-
 
 @media only screen and (min-width: 768px) {
     .contact-us-header {
@@ -30,7 +16,8 @@
         line-height: 0.92;
         margin-bottom: 40px;
     }
-    .contact-info-img {
+
+    .contact-us-img {
         margin-bottom: 80px;
     }
 }
@@ -44,12 +31,11 @@
     gap: 28px;
     background-color: #F3F3F3;
     border-radius: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-us-img {
-    margin-bottom: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,13 +63,6 @@
 
     .contact-us-img {
         margin: 0;
-    }
-
-    .contact-info-img {
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-        margin-bottom: 100px;
     }
 }
 
