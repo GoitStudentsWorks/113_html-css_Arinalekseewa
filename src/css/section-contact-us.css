@@ -17,9 +17,6 @@
         margin-bottom: 40px;
     }
 
-    .contact-us-img {
-        margin-bottom: 80px;
-    }
 }
 
 .contact-us-form-container {
@@ -32,10 +29,6 @@
     background-color: #F3F3F3;
     border-radius: 30px;
     margin-bottom: 20px;
-}
-
-.contact-us-img {
-    margin-bottom: 60px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -58,12 +51,8 @@
     .contact-info-img {
         display: flex;
         gap: 40px;
-        margin-bottom: 100px;
     }
 
-    .contact-us-img {
-        margin: 0;
-    }
 }
 
 .contact-us-text {

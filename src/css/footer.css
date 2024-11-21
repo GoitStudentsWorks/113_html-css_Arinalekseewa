@@ -1,6 +1,7 @@
 footer .container {
     font-family: "Gilroy Medium", sans-serif;
     text-transform: none;
+    padding: 0 20px 20px 20px;
 }
  
 .adress-container .contact-adress {
@@ -10,10 +11,6 @@ footer .container {
 
 p {
     font-family: "Gilroy", sans-serif;
-}
-
-.footer-section {
-    margin-bottom: 20px;
 }
 
 .footer-contacts {

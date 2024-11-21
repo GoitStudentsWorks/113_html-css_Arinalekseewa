@@ -1,11 +1,4 @@
-.about-us {
-  margin-bottom: 60px;
-}
-@media screen and (min-width: 768px) {
-  .about-us {
-    margin-bottom: 80px;
-  }
-}
+
 
 .about-us-wrapper {
   display: flex;

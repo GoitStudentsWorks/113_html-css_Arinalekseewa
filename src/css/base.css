@@ -19,3 +19,7 @@ body {
   color: #0C0C0C;
   background-color: #fbfbfb;
 }
+
+html {
+  scroll-behavior: smooth;
+}

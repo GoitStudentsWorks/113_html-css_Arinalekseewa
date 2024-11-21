@@ -2,6 +2,7 @@
 
 header .container {
     height: 74px;
+    padding: 0 20px;
 }
 
 .header {
@@ -30,7 +31,7 @@ header .container {
 
 .burger-icon {
     display: block;
-    fill: #0C0C0C;
+    stroke: #0C0C0C;
 }
 
 .burger-btn {
@@ -52,11 +53,11 @@ header .container {
 .mobile-social-icons {
     fill: rgba(251, 251, 251, 0.8);
 
-    transition: color 300ms ease;
+    transition: fill 300ms ease;
 }
 
-.mobile-social-icons:hover,
-.mobile-social-icons:active {
+.mobile-icons-list:hover .mobile-social-icons,
+.mobile-icons-list:active .mobile-social-icons {
     fill: #FBFBFB;
 }
 
@@ -152,11 +153,6 @@ header .container {
     transition: color 300ms ease;
 }
 
-.social-icons:hover,
-.social-icons:active {
-    fill: rgba(51, 80, 233, 0.8);
-}
-
 .mobile-navigation-item {
     position: relative;
     font-weight: 500;
@@ -212,9 +208,14 @@ header .container {
 
 .social-icons {
     fill: rgba(12, 12, 12, 0.8);
+
+    transition: fill 300ms ease;
 }
 
-
+.icons-list:hover .social-icons,
+.icons-list:active .social-icons {
+    fill: rgba(51, 80, 233, 0.8);
+}
 
 .mobile-close-button {
     position: absolute;
