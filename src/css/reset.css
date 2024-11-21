@@ -12,6 +12,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   margin: 0;
   padding: 0;
