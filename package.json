@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/GoIt_Watch_project/",
+    "build": "vite build --base=/113_html-css_Arinalekseewa/",
     "preview": "vite preview"
   },
   "devDependencies": {
